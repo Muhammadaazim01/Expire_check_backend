@@ -12,8 +12,8 @@ module.exports = {
             const response = await NotificationService.sendPushNotification(token, title, body);
             res.status(200).json({ message: 'Notification sent', response });
         } catch (error) {
-            console.error(error);
-            res.status(500).json({ message: 'Error sending notification', error });
+            console.error('Error in sendNotification:', error);
+            res.status(500).json({ message: 'Error sending notification', error: error.message });
         }
     }
 };

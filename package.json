@@ -6,9 +6,22 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
     "firebase-admin": "^11.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadaazim01/Expire_check_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammadaazim01/Expire_check_backend/issues"
+  },
+  "homepage": "https://github.com/Muhammadaazim01/Expire_check_backend#readme",
+  "description": ""
 }
