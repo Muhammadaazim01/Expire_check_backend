@@ -1,4 +1,4 @@
-import { sendNotification } from "../notificationcontroller.js"; // ES module
+import { sendNotification } from '../../notificationController.js'; // ES module path
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
